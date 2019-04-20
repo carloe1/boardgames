@@ -1,0 +1,72 @@
+@CHARSET "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+h1{
+	font-family: "Roboto", sans-serif;
+	color: white;	
+}
+
+.generations a{
+	font-family: "Roboto", sans-serif;
+	color: white;	
+	font-size: 20px;
+}
+
+.container {
+	width: auto;
+	height: auto;
+	text-align: center;
+	position:relative;
+}
+
+
+.container .resources {
+    position:relative;
+	z-index: 1;
+	text-align: center;
+	overflow: auto;
+}
+
+.container .resources input{
+	  box-sizing: border-box;
+}
+
+.container .resources input[type=button]{
+	background-color: white;
+    border: none;
+    color: black;
+	font-size: 16px;
+	
+}
+
+.container .resources input[type=text]{
+	text-align: center;
+	background-color: white;
+	border: none;
+	color: black;
+	width: 50px;
+	font-size: 16px;
+	
+}
+
+.container .production input[type=submit]{
+	padding: 15px;
+  	box-sizing: border-box;
+ 	font-size: 16px;
+}
+
+body{
+	  
+	text-align: center;
+	font-family: "Roboto", sans-serif;
+	color: white;
+    position:fixed;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    width: auto;
+	height: auto;
+	background-image: url("../images/mars_background.png");
+	
+}
